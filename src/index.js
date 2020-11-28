@@ -4,7 +4,7 @@ const main = async () => {
   // Create a new Drawable class
   // This has a fixed color given by the hue-saturation-lightness values,
   // but it could also be changed even during runtime.
-  const Circle = CircleFactory(hsl(30, 66, 100));
+  const Circle = CircleFactory(hsl(30, 66, 50));
 
   // Get a reference to the canvas element on the HTML page
   const canvas = document.querySelector("canvas");
